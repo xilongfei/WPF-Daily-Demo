@@ -1,0 +1,32 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--  背景（随主题变）  -->
+    <SolidColorBrush Color="#FFFFFF" x:Key="BgPrimaryBrush" />
+    <SolidColorBrush Color="#F5F6F8" x:Key="BgSecondaryBrush" />
+    <SolidColorBrush Color="#FFFFFF" x:Key="BgElevatedBrush" />
+
+    <!--  文字（随主题变）  -->
+    <SolidColorBrush Color="#1F2329" x:Key="TextPrimaryBrush" />
+    <SolidColorBrush Color="#5A6270" x:Key="TextSecondaryBrush" />
+    <SolidColorBrush Color="#9AA1AD" x:Key="TextTertiaryBrush" />
+
+    <!--  边框（随主题变）  -->
+    <SolidColorBrush Color="#E2E5EA" x:Key="BorderBrush" />
+    <SolidColorBrush Color="#C8CDD4" x:Key="BorderStrongBrush" />
+
+    <!--  强调色 Accent（随主题变，主色）  -->
+    <SolidColorBrush Color="#2F6BFF" x:Key="AccentBrush" />
+    <SolidColorBrush Color="#FFFFFF" x:Key="OnAccentBrush" />
+
+    <!--  语义色：含义固定，只随主题调明暗  -->
+    <SolidColorBrush Color="#E24B4A" x:Key="DangerBrush" />
+    <SolidColorBrush Color="#EF9F27" x:Key="WarningBrush" />
+    <SolidColorBrush Color="#3B8F2F" x:Key="SuccessBrush" />
+    <SolidColorBrush Color="#378ADD" x:Key="InfoBrush" />
+
+    <!--  通道色：行业约定，两套主题里写同一个值，永不漂移  -->
+    <SolidColorBrush Color="#F5A800" x:Key="Ch1Brush" />
+    <SolidColorBrush Color="#378ADD" x:Key="Ch2Brush" />
+    <SolidColorBrush Color="#3B8F2F" x:Key="Ch3Brush" />
+    <SolidColorBrush Color="#E24B4A" x:Key="Ch4Brush" />
+</ResourceDictionary>

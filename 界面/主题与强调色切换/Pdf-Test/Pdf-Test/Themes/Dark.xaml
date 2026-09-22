@@ -1,0 +1,28 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <SolidColorBrush Color="#1A1D23" x:Key="BgPrimaryBrush" />
+    <SolidColorBrush Color="#20242C" x:Key="BgSecondaryBrush" />
+    <SolidColorBrush Color="#242A33" x:Key="BgElevatedBrush" />
+
+    <SolidColorBrush Color="#E8EAED" x:Key="TextPrimaryBrush" />
+    <SolidColorBrush Color="#A6AEBC" x:Key="TextSecondaryBrush" />
+    <SolidColorBrush Color="#6D7582" x:Key="TextTertiaryBrush" />
+
+    <SolidColorBrush Color="#333842" x:Key="BorderBrush" />
+    <SolidColorBrush Color="#4A5160" x:Key="BorderStrongBrush" />
+
+    <SolidColorBrush Color="#6CB1F0" x:Key="AccentBrush" />
+    <SolidColorBrush Color="#FFFFFF" x:Key="OnAccentBrush" />
+
+    <!--  语义色：只调亮，色相不变  -->
+    <SolidColorBrush Color="#F06A69" x:Key="DangerBrush" />
+    <SolidColorBrush Color="#F5B23D" x:Key="WarningBrush" />
+    <SolidColorBrush Color="#6FBF4E" x:Key="SuccessBrush" />
+    <SolidColorBrush Color="#6CB1F0" x:Key="InfoBrush" />
+
+    <!--  通道色：和浅色字典完全一致，不漂移  -->
+    <SolidColorBrush Color="#F5A800" x:Key="Ch1Brush" />
+    <SolidColorBrush Color="#378ADD" x:Key="Ch2Brush" />
+    <SolidColorBrush Color="#3B8F2F" x:Key="Ch3Brush" />
+    <SolidColorBrush Color="#E24B4A" x:Key="Ch4Brush" />
+</ResourceDictionary>
